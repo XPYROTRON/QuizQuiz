@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Quiz? Quiz
+Comment=Linux Quizshow mit Kategorien, Timer und Highscores
+Exec=werweiss
+Icon=io.github.XPYROTRON.WerWeissQuiz
+Terminal=false
+Type=Application
+Categories=Game;Education;
+StartupNotify=true

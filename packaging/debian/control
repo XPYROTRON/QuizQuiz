@@ -1,0 +1,12 @@
+Source: werweiss
+Section: games
+Priority: optional
+Maintainer: XPYROTRON <you@example.com>
+Build-Depends: debhelper-compat (= 13), python3, python3-setuptools
+Standards-Version: 4.6.2
+
+Package: werweiss
+Architecture: all
+Depends: python3, python3-gi, gir1.2-gtk-4.0, libgtk-4-1, pulseaudio-utils, alsa-utils, ${misc:Depends}, ${python3:Depends}
+Description: Quiz? Quiz Neon-Quizspiel
+ Ein GTK4 Quizspiel mit Multiple-Choice-Fragen, Timer, Punkten, Sounds und SQLite-Highscores.

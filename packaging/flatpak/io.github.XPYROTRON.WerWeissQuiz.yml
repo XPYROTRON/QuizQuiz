@@ -1,0 +1,21 @@
+app-id: io.github.XPYROTRON.WerWeissQuiz
+runtime: org.gnome.Platform
+runtime-version: '46'
+sdk: org.gnome.Sdk
+command: werweiss
+finish-args:
+  - --share=ipc
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --device=dri
+  - --socket=pulseaudio
+modules:
+  - name: werweiss
+    buildsystem: simple
+    build-commands:
+      - pip3 install --prefix=/app .
+      - install -Dm644 assets/icons/io.github.XPYROTRON.WerWeissQuiz.png /app/share/icons/hicolor/512x512/apps/io.github.XPYROTRON.WerWeissQuiz.png
+      - install -Dm644 packaging/flatpak/io.github.XPYROTRON.WerWeissQuiz.desktop /app/share/applications/io.github.XPYROTRON.WerWeissQuiz.desktop
+    sources:
+      - type: dir
+        path: ../..

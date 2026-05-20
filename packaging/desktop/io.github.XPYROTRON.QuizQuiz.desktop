@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Quiz? Quiz
+Comment=Neon Quizshow Spiel für Linux
+Exec=quizquiz
+Icon=io.github.XPYROTRON.QuizQuiz
+Terminal=false
+Type=Application
+Categories=Game;Education;
+StartupNotify=true

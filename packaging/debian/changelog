@@ -1,0 +1,42 @@
+werweiss (1.4.0-1) unstable; urgency=medium
+
+  * Rename app to Quiz? Quiz, remove main highscore/back buttons, add background music mute setting.
+
+ -- XPYROTRON <you@example.com>  Wed, 20 May 2026 03:20:00 +0200
+
+werweiss (1.3.0-1) unstable; urgency=medium
+
+  * Replace the previous app background with the user-provided FHD neon studio background.
+  * Use the same scalable background across menu, categories, quiz, settings and score screens.
+  * Preserve the full background when resizing/maximizing via GTK ContentFit.CONTAIN.
+
+ -- XPYROTRON <you@example.com>  Wed, 20 May 2026 02:00:00 +0200
+
+werweiss (0.8.0-1) unstable; urgency=medium
+
+  * Restore visible progress question number.
+  * Hide internal question IDs that start with # in question text.
+  * Use the richer generated TV-show mockup artwork as the in-game background.
+
+ -- XPYROTRON <you@example.com>  Tue, 19 May 2026 21:00:00 +0200
+
+werweiss (0.7.0-1) unstable; urgency=medium
+
+  * Add 20,000 original quiz questions.
+  * Enlarge category emojis and keep the TV-show design consistent.
+  * Improve first-run SQLite import performance.
+
+ -- XPYROTRON <you@example.com>  Tue, 19 May 2026 20:00:00 +0200
+
+werweiss (0.5.0-1) unstable; urgency=medium
+
+  * Fix settings button and implement jokers.
+  * Improve consistent game-show styling for start and category buttons.
+
+ -- XPYROTRON <you@example.com>  Tue, 19 May 2026 19:00:00 +0200
+
+werweiss (0.2.0-1) unstable; urgency=medium
+
+  * Larger start button, app icon, modern sounds and mute toggle.
+
+ -- XPYROTRON <you@example.com>  Tue, 19 May 2026 18:30:00 +0200

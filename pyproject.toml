@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quizquiz"
+version = "2.1.0"
+description = "Quiz? Quiz - ein neon-inspiriertes Linux Quizspiel"
+requires-python = ">=3.10"
+authors = [{name = "XPYROTRON"}]
+
+[project.scripts]
+quizquiz = "werweiss.main:main"
+
+[tool.setuptools]
+packages = ["werweiss", "werweiss.game"]
+
+[tool.setuptools.package-data]
+werweiss = ["style.css", "data/questions.json", "assets/icons/*.png", "assets/sounds/*.wav", "assets/backgrounds/*.png"]
